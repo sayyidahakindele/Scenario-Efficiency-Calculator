@@ -1,0 +1,24 @@
+OPT = -Wall
+OBJ = main.o deque.o fighter.o stats.o fight.o 
+
+fp:		$(OBJ)
+		gcc $(OPT) -o fp $(OBJ) -lpthread
+
+main.o:		main.c defs.h
+		gcc $(OPT) -c main.c -lpthread
+
+deque.o:	deque.c defs.h
+		gcc $(OPT) -c deque.c -lpthread
+
+fighter.o:	fighter.c defs.h
+		gcc $(OPT) -c fighter.c -lpthread
+
+stats.o:	stats.c defs.h
+		gcc $(OPT) -c stats.c -lpthread
+
+fight.o:	fight.c defs.h
+		gcc $(OPT) -c fight.c -lpthread
+
+clean:
+		rm -f $(OBJ) a3
+

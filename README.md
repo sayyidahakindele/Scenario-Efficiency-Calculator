@@ -16,16 +16,15 @@ Statistics for each run are accumulated and printed at the end.
 
 From the statistics we can deduce which scenario is most efficient
 
+TECHNICAL SKILLS
+----------------
+This program utilizes multi-threading to multiple scenarios simultaneously, employing semaphores and mutexes for data sharing.
+
 COMPILING AND LAUNCHING
 ------------------------
 1. make
 2. ./fp n, where n is the number of runs
    - default is 100; ./fp
-
-
-TECHNICAL SKILLS
-----------------
-This program utilizes multi-threading, using threads to ran multiple scenarios simultaneously, employing semaphores and mutexes for data sharing.
 
 
 FILES

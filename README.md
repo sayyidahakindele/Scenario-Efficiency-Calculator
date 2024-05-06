@@ -14,7 +14,7 @@ Simulates a fight between two heroes, Tortoise and Hare, against a crew of ten p
 	Statistics for each run are accumulated and printed at the end.
 	From the statistics we can safely say that the highest chance the heroes have of winning is when Tortoise has the magic sword
 
-COMPILATION AND LAUNCHING
+COMPILING AND LAUNCHING
 ------------------------
 1. make
 2. ./fp n, where n is the number of runs

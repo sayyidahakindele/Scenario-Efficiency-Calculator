@@ -8,11 +8,13 @@ Doyinsola Sayyidah Akindele
 PURPOSE
 -------
 Simulates a fight between two heroes, Tortoise and Hare, against a crew of ten pirates. Each scenario gives an advantage to a particular hero by giving them a magic sword.
-		- Scenario 1: Tortoise gets the magic sword
-		- Scenario 2: Hare gets the magic sword 
-		- Scenario 3: No one gets the sword.
-	Statistics for each run are accumulated and printed at the end.
-	From the statistics we can safely say that the highest chance the heroes have of winning is when Tortoise has the magic sword
+- Scenario 1: Tortoise gets the magic sword
+- Scenario 2: Hare gets the magic sword
+- Scenario 3: No one gets the sword.
+
+Statistics for each run are accumulated and printed at the end.
+
+From the statistics we can deduce which scenario is most efficient
 
 COMPILING AND LAUNCHING
 ------------------------
